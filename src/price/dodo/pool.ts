@@ -11,6 +11,7 @@ export const DODOV2Pool = [
     address: [
       "0xA0020444b98f67B77a3d6dE6E66aF11c87da086e",
       "0x38C56f05a7b4E4dC79Eac6C264829C7b21fBf7A8",
+      "0xDa43a4aAB20D313Ab3AA07d8E09f3521F32a3D83",
     ],
   },
   {
@@ -23,6 +24,16 @@ export const DODOV2Pool = [
   },
   {
     pair: ["USDC", "USDT"],
-    address: ["0xA0020444b98f67B77a3d6dE6E66aF11c87da086e"],
+    address: [
+      "0xA0020444b98f67B77a3d6dE6E66aF11c87da086e",
+      "0x56FF5E27d40FBF746ADaa3DA820ADb2056F225E7",
+    ],
+  },
+  {
+    pair: ["WBTC", "USDC"],
+    address: ["0xe020008465cD72301A18b97d33D73bF44858A4b7"],
+  },
+  { pair: ["WMATIC", "WETH"],
+    address: ["0xC877D7BbCB5b40C3F3d7e7E0d0DA6220BEE027a1"],
   },
 ];
