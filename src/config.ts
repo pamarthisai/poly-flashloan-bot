@@ -17,10 +17,122 @@ export const explorerURL = "https://polygonscan.com";
 
 export const tradingRoutes: ITrade[] = [
   {
+    path: [ERC20Token.DAI, ERC20Token.WETH, ERC20Token.DAI],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.DAI.decimals),
+  },
+  {
+    path: [ERC20Token.DAI, ERC20Token.USDC, ERC20Token.DAI],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.DAI.decimals),
+  },
+  {
+    path: [ERC20Token.DAI, ERC20Token.USDT, ERC20Token.DAI],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.DAI.decimals),
+  },
+  {
+    path: [ERC20Token.DAI, ERC20Token.WMATIC, ERC20Token.DAI],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.DAI.decimals),
+  },
+  {
+    path: [ERC20Token.WETH, ERC20Token.DAI, ERC20Token.WETH],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WETH.decimals),
+  },
+  {
+    path: [ERC20Token.WETH, ERC20Token.USDC, ERC20Token.WETH],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WETH.decimals),
+  },
+  {
+    path: [ERC20Token.WETH, ERC20Token.USDT, ERC20Token.WETH],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WETH.decimals),
+  },
+  {
+    path: [ERC20Token.WETH, ERC20Token.WMATIC, ERC20Token.WETH],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WETH.decimals),
+  },
+  {
     path: [ERC20Token.USDC, ERC20Token.DAI, ERC20Token.USDC],
     protocols: [2, 0],
     amountIn: getBigNumber(20000, ERC20Token.USDC.decimals),
   },
+  {
+    path: [ERC20Token.USDC, ERC20Token.WETH, ERC20Token.USDC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDC.decimals),
+  },
+  {
+    path: [ERC20Token.USDC, ERC20Token.USDT, ERC20Token.USDC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDC.decimals),
+  },
+  {
+    path: [ERC20Token.USDC, ERC20Token.WMATIC, ERC20Token.USDC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDC.decimals),
+  },
+  {
+    path: [ERC20Token.USDT, ERC20Token.DAI, ERC20Token.USDT],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDT.decimals),
+  },
+  {
+    path: [ERC20Token.USDT, ERC20Token.WETH, ERC20Token.USDT],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDT.decimals),
+  },
+  {
+    path: [ERC20Token.USDT, ERC20Token.USDC, ERC20Token.USDT],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDT.decimals),
+  },
+  {
+    path: [ERC20Token.USDT, ERC20Token.WMATIC, ERC20Token.USDT],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.USDT.decimals),
+  },
+  {
+    path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WMATIC.decimals),
+  },
+  {
+    path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WMATIC.decimals),
+  },
+  {
+    path: [ERC20Token.WMATIC, ERC20Token.USDT, ERC20Token.WMATIC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WMATIC.decimals),
+  },
+  {
+    path: [ERC20Token.WBTC, ERC20Token.USDT, ERC20Token.WBTC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WBTC.decimals),
+  },
+  {
+    path: [ERC20Token.WBTC, ERC20Token.USDC, ERC20Token.WBTC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WBTC.decimals),
+  },
+  {
+    path: [ERC20Token.WBTC, ERC20Token.WMATIC, ERC20Token.WBTC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WBTC.decimals),
+  },
+  {
+    path: [ERC20Token.WBTC, ERC20Token.DAI, ERC20Token.WBTC],
+    protocols: [2, 0],
+    amountIn: getBigNumber(20000, ERC20Token.WBTC.decimals),
+  },
+
+
 ];
 
 /**
@@ -29,7 +141,7 @@ export const tradingRoutes: ITrade[] = [
  * if you have deployed your own contract, you can use it instead of the default one
  */
 export const flashloanAddress: string =
-  "0x33d8d437796bd43bdccc6740c585f4a15d1070b7";
+  "0x6B8bfEFA7A74eFb3F6dcbdD9663Ad947Fe3ED10A";
 
 /**
  * The bot can trade on UniswapV2 fork dexes(ex. SushiSwap) and UniswapV3
