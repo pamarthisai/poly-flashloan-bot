@@ -805,7 +805,7 @@ export const tradingRoutes: ITrade[] = [
  * if you have deployed your own contract, you can use it instead of the default one
  */
 export const flashloanAddress: string =
-  "0x6B8bfEFA7A74eFb3F6dcbdD9663Ad947Fe3ED10A";
+  "0x33d8d437796bd43bdccc6740c585f4a15d1070b7";
 
 /**
  * The bot can trade on UniswapV2 fork dexes(ex. SushiSwap) and UniswapV3
