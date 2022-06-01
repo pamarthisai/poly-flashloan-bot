@@ -1,3 +1,4 @@
+import { DODOV2Pool } from './price/dodo/pool';
 import { ethers } from "ethers";
 import * as FlashloanJson from "./abis/Flashloan.json";
 import { flashloanAddress, gasLimit } from "./config";
@@ -25,8 +26,10 @@ const Flashloan = new ethers.Contract(
 type testedPoolMap = { [erc20Address: string]: string[] };
 
 const testedPools: testedPoolMap = {
+  DAI: [dodoV2Pool.USDC_DAI],
   WETH: [dodoV2Pool.WETH_USDC],
-  USDC: [dodoV2Pool.WETH_USDC],
+  USDC: [dodoV2Pool.WETH_USDC, dodoV2Pool.USDC_DAI],
+  USDT: [dodoV2Pool.USDT_DAI],
   WMATIC: [dodoV2Pool.WMATIC_USDC],
 };
 
@@ -43,7 +46,7 @@ export const flashloan = async (trade: ITrade) => {
   let params: IParams;
   const tokenIn = trade.path[0];
   const gasPrice = await maticProvider.getGasPrice();
-  const extraGas = ethers.utils.parseUnits("100", "gwei");
+  const extraGas = ethers.utils.parseUnits("1000", "gwei");
   params = {
     flashLoanPool: getLendingPool(tokenIn),
     loanAmount: trade.amountIn,
