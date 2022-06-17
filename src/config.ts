@@ -19,117 +19,117 @@ export const tradingRoutes: ITrade[] = [
   {
     path: [ERC20Token.DAI, ERC20Token.WETH, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.USDC, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.USDT, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.WMATIC, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.DAI, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.USDC, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.USDT, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.WMATIC, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.DAI, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.WETH, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.USDT, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.WMATIC, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.DAI, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.WETH, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.USDC, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.WMATIC, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDT, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.USDT, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.USDC, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.WMATIC, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.DAI, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(200, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
   },
 
 
@@ -148,4 +148,4 @@ export const flashloanAddress: string =
  * For UniswapV2, you can trade between any token pair, but for UniswapV3, you have to check their pool fees and list them on src/price/uniswap/v3/fee.ts.
  */
 
-export const gasLimit = 15000000;
+export const gasLimit = 150000;
