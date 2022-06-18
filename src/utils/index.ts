@@ -67,7 +67,7 @@ export const checkIfProfitable = (
   diffPercentage: number,
   expectedAmountOut: BigNumber
 ) => {
-  const preventUnderflow = 1_000_000;
+  const preventUnderflow = 1_000_000_000_000;
   const isOpportunity = loanAmount
     .mul((diffPercentage / 100 + 1) * preventUnderflow)
     .div(preventUnderflow)
