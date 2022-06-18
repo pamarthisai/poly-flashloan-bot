@@ -6,7 +6,7 @@ export const renderInterval = 1 * 1000;
 
 // interval of price check (ms)
 export const interval = 4 * 1000;
-
+export const loanAmount = 1000;
 export const diffPercentage = 0.01;
 
 //export const chainId = 1;// Ethereum
@@ -19,117 +19,117 @@ export const tradingRoutes: ITrade[] = [
   {
     path: [ERC20Token.DAI, ERC20Token.WETH, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.USDC, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.USDT, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.DAI, ERC20Token.WMATIC, ERC20Token.DAI],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.DAI.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.DAI.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.DAI, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.USDC, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.USDT, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.WETH, ERC20Token.WMATIC, ERC20Token.WETH],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WETH.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WETH.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.DAI, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.WETH, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.USDT, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDC, ERC20Token.WMATIC, ERC20Token.USDC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDC.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.DAI, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.WETH, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.USDC, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.USDT, ERC20Token.WMATIC, ERC20Token.USDT],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.USDT.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.USDT.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDC, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WMATIC, ERC20Token.USDT, ERC20Token.WMATIC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WMATIC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WMATIC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.USDT, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.USDC, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.WMATIC, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WBTC.decimals),
   },
   {
     path: [ERC20Token.WBTC, ERC20Token.DAI, ERC20Token.WBTC],
     protocols: [2, 0],
-    amountIn: getBigNumber(30000, ERC20Token.WBTC.decimals),
+    amountIn: getBigNumber(loanAmount, ERC20Token.WBTC.decimals),
   },
 
 
